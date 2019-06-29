@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>Заполните пожалуйста небольшую анкету</h3>
+
+    <form action="#">
+        <h4>Ваш пол</h4>
+        <label>
+            <input type="radio" name="sex" value="Мужской">Мужской
+        </label>
+        <label>
+            <input type="radio" name="sex" value="Женский">Женский
+        </label>
+        <label>
+            <input type="radio" name="sex" value="Я хз">Я хз
+        </label>
+<!--=============================================================-->
+        <h4>Отметьте ваши хорошие качества</h4>
+        <label for="check">
+            <input id="check" type="checkbox" name="check"><i>Ответственный</i>
+        </label>
+        <label>
+            <input type="checkbox" name="check"><i>Общительный</i>
+        </label>
+        <label>
+            <input type="checkbox" name="check"><i>Пунктуальный</i>
+        </label>
+        <label>
+            <input type="checkbox" name="check"><i>Адекватный</i>
+        </label>
+        <label>
+            <input type="checkbox" name="check"><i>Жизнерадостный</i>
+        </label>
+<!--=============================================================-->
+        <h4>Загрузите ваше фото</h4>
+        <label>
+            <input type="file" name="pic">
+        </label>
+<!--=============================================================-->
+        <h4>Укажите ваш любимый цвет</h4>
+        <label class="color">
+            <input type="color" name="color">
+        </label>
+<!--=============================================================-->
+        <h4>Укажите вашу дату рождения</h4>
+        <label>
+            <input type="date" name="birthday">
+        </label>
+<!--=============================================================-->
+        <h4>Какой размер обуви вы носите</h4>
+        <label>
+            <span class="size">36 &nbsp; 38 &nbsp; 40 &nbsp; 42 &nbsp; 44 &nbsp; 46</span><br>
+            <input type="range" name="shoes" list="size" min="36" max="46" step="2">
+            
+            <datalist id="size">
+                <option value="36" label="36">36</option>
+                <option value="38" label="38">38</option>
+                <option value="40" label="40">40</option>
+                <option value="42" label="42">42</option>
+                <option value="44" label="44">44</option>
+                <option value="46" label="46">46</option>
+            </datalist>            
+        </label>
+<!--=============================================================-->
+        <h4>Напишите ваши пожелания</h4>
+        <textarea name="" id="" cols="50" rows="10" placeholder="примечание"></textarea>
+    </form>
+</body>
+</html>

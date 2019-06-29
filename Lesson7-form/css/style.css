@@ -1,0 +1,25 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(0, 71, 71);
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+.size {
+    font-size: 0.8em;
+}
+
+.color {
+    width: 40px;
+}
+
+input[type="checkbox"]:checked+i{
+    color: rgb(201, 255, 139);
+}
+

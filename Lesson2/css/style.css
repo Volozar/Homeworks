@@ -1,0 +1,26 @@
+body{
+    background:rgb(65, 124, 91);
+    width: 700px;
+}
+.st1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2em;
+    color: blue;
+}
+.st2{
+    
+    font-family: 'PhillippScript', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgba(255, 183, 0, 0.7);
+}
+.st3{
+    
+    font-family: 'Marck Script', cursive, sans-serif;
+    font-size: 28px;
+    color: rgb(128, 0, 128);
+}
+.st4{
+    font-family: Impact, sans-serif;
+    font-size: 20px;
+}
