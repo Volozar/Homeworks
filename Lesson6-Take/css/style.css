@@ -1,0 +1,26 @@
+.header {
+    width: 1200px;
+    min-height: 619px;
+    background-image: url(../img/header-photo.jpg);
+}
+
+.header__share {
+    width: 250px;
+    height: 300px;
+    float: left;
+    background: firebrick;
+
+}
+
+/* .svg-circle {
+    background: firebrick;
+} */
+
+.header__take {
+    margin-top: 42px;
+    display: inline-block;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+}
