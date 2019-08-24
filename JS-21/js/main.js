@@ -32,3 +32,11 @@ console.log(Maz)
 
 Maz.unload(5);
 console.log(Maz)
+
+
+
+$(document).ready(function(){
+    $('.your-class').slick({
+      setting-name: setting-value
+    });
+  });
